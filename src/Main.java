@@ -25,5 +25,17 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + " , то то придется заплатить штраф.");
         }
+    /// #4
+        int years = 22;
+        if (years >= 2 && years <= 6) {
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в детский сад.");
+        } else if (years >= 7 && years <= 17) {
+            System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в школу.");
+        } else if (years >= 18 && years <= 24) {
+            System.out.println("Если возраст человека равен " + years + ", то его место в университете.");
+        } else {
+            System.out.println("Если возраст человека равен " + years + ", то ему пора ходить на работу.");
+        }
+
     }
 }
