@@ -18,6 +18,12 @@ public class Main {
         } else {
             System.out.println("На улице " + temperature + " градусов, сегодня тепло, можно идти без шапки.");
         }
-
+        /// №3
+        int speed = 45;
+        if (speed <= 60) {
+            System.out.println("Если скорость " + speed + " , можно ездить спокойно.");
+        } else {
+            System.out.println("Если скорость " + speed + " , то то придется заплатить штраф.");
+        }
     }
 }
