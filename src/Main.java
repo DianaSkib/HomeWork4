@@ -11,6 +11,13 @@ public class Main {
         if (age < 18) {
             System.out.println("Если возраст человека равен " + age + ", он не достиг совершеннолетия, нужно подождать.");
         }
+    /// #2
+        int temperature = 6;
+        if (temperature <= 5) {
+            System.out.println("На улице " + temperature + " градусов.");
+        } else {
+            System.out.println("На улице " + temperature + " градусов, сегодня тепло, можно идти без шапки.");
+        }
 
     }
 }
