@@ -11,7 +11,7 @@ public class Main {
         if (age < 18) {
             System.out.println("Если возраст человека равен " + age + ", он не достиг совершеннолетия, нужно подождать.");
         }
-    /// #2
+        /// #2
         int temperature = 6;
         if (temperature <= 5) {
             System.out.println("На улице " + temperature + " градусов.");
@@ -25,7 +25,7 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + " , то то придется заплатить штраф.");
         }
-    /// #4
+        /// #4
         int years = 22;
         if (years >= 2 && years <= 6) {
             System.out.println("Если возраст человека равен " + years + ", то ему нужно ходить в детский сад.");
@@ -36,6 +36,16 @@ public class Main {
         } else {
             System.out.println("Если возраст человека равен " + years + ", то ему пора ходить на работу.");
         }
+        /// #5
+        int childsAge = 15;
+        boolean adult = true;
 
-    }
+        if (childsAge < 5) {
+            System.out.println("Если возраст ребенка равен " + childsAge + ", то ему нельзя кататься на аттракционе.");
+        }  else if (childsAge > 5 && childsAge < 14 && adult) {
+            System.out.println("Если возраст ребенка равен " + childsAge + ", то ему нельзя кататься без сопровождения взрослого.");
+        } else if (childsAge > 14){
+            System.out.println("Если возраст ребенка равен " + childsAge + ", то ему можно кататься без сопровождения взрослого.");
+        }
+        }
 }
