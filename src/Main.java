@@ -47,5 +47,19 @@ public class Main {
         } else if (childsAge > 14){
             System.out.println("Если возраст ребенка равен " + childsAge + ", то ему можно кататься без сопровождения взрослого.");
         }
+
+        /// #6
+        int peopleInVan = 103;
+        int carriageCapacity = 102;
+        int seatingPositions = 60;
+        int standingPositions = carriageCapacity - seatingPositions;
+
+        if (peopleInVan < seatingPositions) {
+            System.out.println("Есть сидячие места.");
+        } else if (peopleInVan >= seatingPositions && peopleInVan <= carriageCapacity) {
+            System.out.println("Сидячих мест нет. Остались только стоячие места.");
+        } else if (peopleInVan > seatingPositions && peopleInVan > standingPositions) {
+            System.out.println("Вагон полностью занят.");
         }
-}
+    }
+    }
