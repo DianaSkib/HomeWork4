@@ -39,9 +39,9 @@ public class Main {
         }
 
         /// #5
-        int childsAge = 13;
+        int childsAge = 2;
 
-        if (childsAge < 5) {
+        if (childsAge > 0 && childsAge < 5) {
             System.out.println("Если возраст ребенка равен " + childsAge + ", то ему нельзя кататься на аттракционе.");
         } else if (childsAge > 5 && childsAge < 14) {
             System.out.println("Если возраст ребенка равен " + childsAge + ", то ему нельзя кататься без сопровождения взрослого.");
@@ -71,7 +71,7 @@ public class Main {
             System.out.println("one наибольшее число.");
         } else if (two > three && two > one) {
             System.out.println("two наибольшее число.");
-        } else if (three > one && three > two) {
+        } else {
             System.out.println("three наибольшее число.");
         }
     }
